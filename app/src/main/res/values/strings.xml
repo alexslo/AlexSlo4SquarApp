@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlexSlo4SquarApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="outButton">Выйти</string>
+    <string name="placesListButon">Список мест</string>
+    <string name="authText">Пожалуйста, авторизируйтесь в сети и включите отслеживание местоположения</string>
+
+</resources>

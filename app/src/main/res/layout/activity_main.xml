@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backg">
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/authText"
+        android:textSize="19sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView"
+        android:layout_margin="10dp"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:id="@+id/webview" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:weightSum="100"
+            android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:text="@string/placesListButon"
+                    android:layout_weight="40"
+                    android:id="@+id/placesListButton"
+                    android:background="@drawable/asd"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"/>
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:text="@string/outButton"
+                    android:id="@+id/exitButton"
+                    android:layout_weight="40"
+                    android:background="@drawable/asd"/>
+        </LinearLayout>
+</LinearLayout>
